@@ -50,7 +50,7 @@ body {
 }
 
 .center {
-  background-color: pink;
+  /* background-color: pink; */
   height: 500px;
   display: flex;
   flex-direction: row;
