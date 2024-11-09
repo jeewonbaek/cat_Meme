@@ -30,6 +30,9 @@ body {
   font-size: 30px;
   border: none;
   border-radius: 20px;
+  /* 으잉 얘 왜 안돼 */
+  text-decoration: none;
+  
 }
 
 .search-btn:hover {
