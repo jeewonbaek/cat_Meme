@@ -92,3 +92,8 @@ display: flex;
 .bottom {
   margin:10px;
 }
+
+a {
+  text-decoration:none;
+  color:inherit;
+}
