@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "BMkkubulimTTF-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BMkkubulimTTF-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title__text {
+  font-size: 100px;
+  font-family: "BMkkubulimTTF-Regular";
+}
+
+/* .paw-right {
+  width:5px;
+  height:10px;
+} */
+
+.search-btn {
+  font-family: "BMkkubulimTTF-Regular";
+
+  text-align: center;
+  background-color: #ffe707;
+  width: 400px;
+  height: 80px;
+  font-size: 30px;
+  border: none;
+  border-radius: 20px;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.top {
+  margin: 15px;
+  margin-bottom: -15px;
+}
+
+.bottom {
+  margin: 30px;
+/*   margin-bottom: -10px; */
+}
+
+.center {
+  margin: 40px;
+  margin-bottom: -10px;
+}
