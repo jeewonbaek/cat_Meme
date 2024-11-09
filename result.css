@@ -1,0 +1,63 @@
+/* 바디 노말라이즈 */
+body {
+  margin: 0;
+}
+
+/* 버튼 노말라이즈 */
+button {
+  all: unset;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "BMkkubulimTTF-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BMkkubulimTTF-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "BMkkubulimTTF-Regular";
+}
+
+/* 왜 엘리먼트 감사고 있는 플랙스 컨테이너가 안되남.... */
+/*   안먹혀서 다른거로 함 */
+/* .flex-top {
+} */
+
+
+.back2main__btn {
+  font-size: 40px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 80px;
+}
+
+.feeling {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 90px;
+}
+
+.center {
+  background-color: pink;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bottom {
+  margin: 30px;
+  margin-left: 60px;
+}
