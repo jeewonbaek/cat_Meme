@@ -10,8 +10,7 @@ button {
 
 @font-face {
   font-family: "BMkkubulimTTF-Regular";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BMkkubulimTTF-Regular.woff2")
-    format("woff2");
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BMkkubulimTTF-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -35,7 +34,6 @@ button {
     align-items: flex-start; */
 */
 
-
 /* 얘랑 label 이 같이 어우러져 적용되는거네 */
 .feeling-categories {
   display: flex;
@@ -47,10 +45,11 @@ button {
 .list-3 {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* 각 체크박스 사이의 간격 */
+  gap: 10px;
+  /* 각 체크박스 사이의 간격 */
 }
 
-label > span {
+label>span {
   line-height: 1.5;
   letter-spacing: 7px;
 }
@@ -97,3 +96,42 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+
+/* ! 일단 보류. 체크박스 하나만 클릭 가능한 작업부터 구현하자 */
+
+/* 체크 박스 숨기기 */
+/* .custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+ */
+/* 
+기본 상태의 커스텀 박스 이미지
+.custom-checkbox .checkbox-image {
+  width: 20px;
+  height: 20px;
+  display: inline-block; */
+/* background-image: url('https://i.postimg.cc/JhPF0fQR/unchecked.jpg'); 미체크 이미지 경로
+  background-size: cover;
+  cursor: pointer;
+} */
+
+/* 체크된 상태의 이미지 변경 */
+/* .custom-checkbox input[type="checkbox"]:checked + .checkbox-image {
+  background-image: url('https://i.postimg.cc/rzXn7MqN/checked.jpg'); 체크된 이미지 경로
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
